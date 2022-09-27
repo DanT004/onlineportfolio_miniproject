@@ -1,0 +1,53 @@
+body{
+    background-color: cornflowerblue;
+    font-family: 'Dangrek',cursive;
+}
+
+#welcome{
+    font-size: 50px;
+}
+
+.header{
+    background-color: cadetblue;
+    border: solid #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.header li{
+    font-size: 20px;
+}
+.header li a:hover{
+    color: aqua;
+}
+
+#logo{
+    font-size: 50px;
+}
+
+#nav li{
+    list-style: none;
+}
+#nav li a:hover{
+    color: aqua;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 25px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.links{
+    font-size: 25px;
+}
+.links img{
+    max-width: 100%;
+}
+
+.links a:hover{
+    color: aqua;
+}
